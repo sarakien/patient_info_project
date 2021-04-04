@@ -24,9 +24,9 @@ class PatientSpider(Spider):
 
         covid_urls = [f'https://patient.info/forums/discuss/browse/coronavirus-covid-19--4541?page={i+1}#group-discussions' for i in range(5)]  
 
-        depression_urls = [f'https://patient.info/forums/discuss/browse/depression-683?page={i+1}#group-discussions' for i in range(7)] 
+        depression_urls = [f'https://patient.info/forums/discuss/browse/depression-683?page={i+1}#group-discussions' for i in range(21)] 
 
-        anxiety_urls = [f'https://patient.info/forums/discuss/browse/anxiety-disorders-70?page={i+1}#group-discussions' for i in range(41)]  
+        anxiety_urls = [f'https://patient.info/forums/discuss/browse/anxiety-disorders-70?page={i+1}#group-discussions' for i in range(120)]  
 
         # print('='*55)
         # print(len(covid_urls))
